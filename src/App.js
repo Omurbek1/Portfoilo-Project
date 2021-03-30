@@ -1,10 +1,11 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
+import Navbar from './components/Navbar'
 export default function App() {
   
   return (
     <div>
-      <h2> My Portfolio.... </h2>
+      <Navbar/>
     </div>
   )
 }
